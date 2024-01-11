@@ -79,7 +79,6 @@ function safeCalculate(expression) {
 function calculate() {
     var result = document.getElementById("result");
     try {
-        // result.value = eval(result.value);
         result.value = safeCalculate(result.value);
 
     } catch(err) {
@@ -121,11 +120,11 @@ document.addEventListener('keydown', function(event) {
     switch (event.key) {
         case "Escape":
             clearAll();
+            event.preventDefault();
             break;
         case "Backspace":
             clear();
             break;
-        // Añadir más teclas según se necesite, por ejemplo:
         case "Enter":
             calculate();
             break;
@@ -148,7 +147,7 @@ document.addEventListener('keydown', function(event) {
             percent();
             break;
         default:
-            if (!isNaN(event.key)) { // Si es un número
+            if (!isNaN(event.key)) {
                 add(event.key);
             }
             break;

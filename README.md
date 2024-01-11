@@ -4,6 +4,8 @@
 
 This repository contains the code for a simple yet stylish web-based calculator. It is designed with a modern and user-friendly interface, making it easy for anyone to use. The calculator is built using vanilla JavaScript, HTML, and CSS, ensuring it is lightweight and fast.
 
+![Screenshot](./Resources/screenshot.png)
+
 ## Features
 
 - Basic arithmetic operations: Addition, subtraction, multiplication, and 

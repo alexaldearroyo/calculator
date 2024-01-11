@@ -6,11 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    /* display: flex; */
     height: 100vh;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* background-color: #f4f4f4; */
     background-color: rgb(255, 231, 134);
 }
 
@@ -43,7 +39,6 @@ body {
     border: none;
     border-radius: 5px;
     text-align: right;
-    /* background-color: #eee; */
     background-color: rgb(255, 230, 156);
     box-shadow: inset 2px 2px 5px rgba(242, 226, 178, 0.7), 
                 inset -2px -2px 5px rgba(255, 246, 198, 0.7);
